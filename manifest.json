@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "WebRTC IP Leak Preventer",
+  "author": "markulie",
+  "version": "1.0.0",
+  "description": "A minimalistic extension to prevent WebRTC IP leaks.",
+  "permissions": [
+    "privacy",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
